@@ -19,7 +19,7 @@
 </footer>
 
 <style>
-  header {
-    background-color: antiquewhite;
+  footer {
+    background-color: gainsboro;
   }
 </style>
