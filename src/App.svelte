@@ -21,5 +21,9 @@
 <style>
   footer {
     background-color: gainsboro;
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 </style>
