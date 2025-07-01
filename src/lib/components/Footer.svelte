@@ -11,7 +11,7 @@
   }
 
   a:hover {
-    color: crimson;
+    color: var(--accentColor);
   }
 
   a > i {

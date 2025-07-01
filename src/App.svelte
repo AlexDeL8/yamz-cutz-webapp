@@ -3,7 +3,6 @@
   import viteLogo from "/vite.svg";
   import Navbar from "./lib/components/Navbar.svelte";
   import Footer from "./lib/components/Footer.svelte";
-  import Counter from "./lib/components/Counter.svelte";
 </script>
 
 <header>
@@ -11,7 +10,7 @@
 </header>
 <main>
   <div class="card">
-    <Counter />
+    <p>Main</p>
   </div>
 </main>
 <footer>
@@ -19,8 +18,15 @@
 </footer>
 
 <style>
+  header {
+    background-color: var(--sectionColor);
+    color: var(--descriptionTextColor);
+    padding: 1.25rem 2rem;
+  }
+
   footer {
-    background-color: gainsboro;
+    background-color: var(--sectionColor);
+    color: var(--descriptionTextColor);
     padding: 2rem 0rem;
     display: flex;
     flex-direction: row;
