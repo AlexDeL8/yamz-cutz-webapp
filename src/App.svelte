@@ -8,7 +8,7 @@
 </header>
 <main>
   <div class="card">
-    <p>Main</p>
+    <p>Landing Page</p>
   </div>
 </main>
 <footer>
